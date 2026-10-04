@@ -1,4 +1,4 @@
-import { createMiddleware } from "@tanstack/react-start";
+
 
 /**
  * Auth middleware for server functions — the standard way to get the caller's
@@ -7,7 +7,7 @@ import { createMiddleware } from "@tanstack/react-start";
  * token (partitioned cookies) via the `.client` hook below — call sites do not
  * thread it themselves.
  *
- *   import { createServerFn } from "@tanstack/react-start";
+ *   
  *   import { getSql } from "@/lib/db";
  *   import { authMiddleware } from "@/lib/auth/middleware";
  *
