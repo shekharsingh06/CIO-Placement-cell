@@ -1,1 +1,9 @@
-{"framework": "vite", "outputDirectory": "dist", "rewrites": [{"source": "/(.*)", "destination": "/index.html"}]} 
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
